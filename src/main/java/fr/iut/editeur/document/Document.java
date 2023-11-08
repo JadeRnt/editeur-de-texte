@@ -36,7 +36,6 @@ public class Document {
 
     public void clear() {
         remplacer(0, texte.length(), "");
-        ajouter("I'm watching you :)");
     }
 
     @Override
