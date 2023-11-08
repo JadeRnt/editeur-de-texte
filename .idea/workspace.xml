@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="bug maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMinuscules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditeurDeTexte.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/Commande.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeAjouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeAjouter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeClear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeClear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeEffacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeEffacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeInserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeInserer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMajuscules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMajuscules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeRemplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeRemplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/document/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/document/Document.java" afterDir="false" />
-    </list>
+    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="fin tp1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699475401900</updated>
       <workItem from="1699475403441" duration="1627000" />
-      <workItem from="1699477045864" duration="721000" />
+      <workItem from="1699477045864" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="creation de CommandeInserer.java">
       <created>1699476079147</created>
@@ -139,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699477136376</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fin tp1">
+      <created>1699478137229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699478137229</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +144,7 @@
     <MESSAGE value="ajout de la case inserer" />
     <MESSAGE value="inport" />
     <MESSAGE value="bug maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug maven" />
+    <MESSAGE value="fin tp1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin tp1" />
   </component>
 </project>
