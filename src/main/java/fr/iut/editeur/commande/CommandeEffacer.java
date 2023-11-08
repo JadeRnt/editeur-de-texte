@@ -14,4 +14,9 @@ public class CommandeEffacer extends CommandeDocument{
         this.document.effacer(deb, fin);
         super.executer();
     }
+
+    @Override
+    public String getDescriptionCommande() {
+        return "Efface du texte au document";
+    }
 }

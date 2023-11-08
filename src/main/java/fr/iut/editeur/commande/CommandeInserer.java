@@ -14,4 +14,9 @@ public class CommandeInserer extends CommandeDocument {
             super.executer();
         }
     }
+
+    @Override
+    public String getDescriptionCommande() {
+        return "Insere du texte au document";
+    }
 }

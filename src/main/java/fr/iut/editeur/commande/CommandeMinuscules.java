@@ -2,21 +2,21 @@ package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
 
-public class CommandeMajuscules extends CommandeDocument{
+public class CommandeMinuscules extends CommandeDocument{
 
-    public CommandeMajuscules(Document document, String[] parameters) {
+    public CommandeMinuscules(Document document, String[] parameters) {
         super(document, parameters);
     }
 
     public void executer() {
         int deb = Integer.parseInt(parameters[1]);
         int fin = Integer.parseInt(parameters[2]);
-        this.document.majuscules(deb, fin);
+        this.document.minuscules(deb, fin);
         super.executer();
     }
 
     @Override
     public String getDescriptionCommande() {
-        return "Ajoute des majuscules au texte du document";
+        return "Ajoute des minuscules au texte du document";
     }
 }
