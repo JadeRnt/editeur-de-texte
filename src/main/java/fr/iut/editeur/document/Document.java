@@ -39,6 +39,10 @@ public class Document {
         ajouter("I'm watching you :)");
     }
 
+    public void inserer(String insert, int x) {
+        remplacer(x+1,x+1,insert);
+    }
+
     @Override
     public String toString() {
         return this.texte;
