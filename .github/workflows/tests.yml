@@ -1,16 +1,14 @@
-name: Run Tests
+name: tests_on_push
 on: push
 jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: get-files
         uses: actions/checkout@v3
-
-      - name: Set up Java
+      - name: install-java
         uses: actions/setup-java@v1
         with:
           java-version: 17
-
-      - name: Run Maven tests
+      - name: execute-tests
         run: mvn test
