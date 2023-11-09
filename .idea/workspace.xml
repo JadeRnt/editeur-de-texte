@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="fin tp1" />
+    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="import github" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,13 +34,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2XuOGMx9UAuwTCtfiETtIM84Oj1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,6 +85,7 @@
       <updated>1699475401900</updated>
       <workItem from="1699475403441" duration="1627000" />
       <workItem from="1699477045864" duration="1083000" />
+      <workItem from="1699523538178" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="creation de CommandeInserer.java">
       <created>1699476079147</created>
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699478137229</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="import github">
+      <option name="closed" value="true" />
+      <created>1699523663941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699523663941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +150,7 @@
     <MESSAGE value="inport" />
     <MESSAGE value="bug maven" />
     <MESSAGE value="fin tp1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin tp1" />
+    <MESSAGE value="import github" />
+    <option name="LAST_COMMIT_MESSAGE" value="import github" />
   </component>
 </project>
