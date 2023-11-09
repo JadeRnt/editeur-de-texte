@@ -1,21 +1,16 @@
 name: Run Tests
 
-on:
-  push:
-    branches:
-      - '*'
+on: push
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up Java
-        uses: actions/setup-java@v1
-        with:
-          java-version: 17
+    - name: Set up Java
+      uses: actions/setup-java@v1
+      with:
+        java-version: 17
 
-      - name: Run Maven tests
-        run: mvn test
+    - name: Run Maven tests
+      run: mvn test
