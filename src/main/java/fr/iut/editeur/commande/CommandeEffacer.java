@@ -15,6 +15,10 @@ public class CommandeEffacer extends CommandeDocument{
         super.executer();
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String getDescriptionCommande() {
         return "Efface du texte au document";

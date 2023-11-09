@@ -15,6 +15,10 @@ public class CommandeMinuscules extends CommandeDocument{
         super.executer();
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String getDescriptionCommande() {
         return "Ajoute des minuscules au texte du document";

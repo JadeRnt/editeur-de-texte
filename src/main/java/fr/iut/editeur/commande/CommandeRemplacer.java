@@ -25,6 +25,10 @@ public class CommandeRemplacer extends CommandeDocument {
         super.executer();
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String getDescriptionCommande() {
         return "Remplace du texte au document";

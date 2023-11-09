@@ -12,6 +12,10 @@ public class CommandeClear extends CommandeDocument{
         super.executer();
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String getDescriptionCommande() {
         return "Clear le texte du document";

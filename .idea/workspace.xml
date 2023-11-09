@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="import github" />
+    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="import github">
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeAjouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeAjouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeClear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeClear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeEffacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeEffacer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeInserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeInserer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMajuscules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMajuscules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMinuscules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeMinuscules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeRemplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/CommandeRemplacer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/factory/CommandeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/iut/editeur/commande/factory/CommandeFactory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,20 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.iut.editeur.Main" />
       <module name="EditeurDeTexte" />
@@ -68,6 +79,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Javadoc" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javadoc::javadoc" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="mocha-javascript-test-runner" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.Javadoc" />
+      <item itemvalue="Mocha.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -85,7 +139,7 @@
       <updated>1699475401900</updated>
       <workItem from="1699475403441" duration="1627000" />
       <workItem from="1699477045864" duration="1083000" />
-      <workItem from="1699523538178" duration="312000" />
+      <workItem from="1699523538178" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="creation de CommandeInserer.java">
       <created>1699476079147</created>
@@ -137,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699523663941</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="import github">
+      <option name="closed" value="true" />
+      <created>1699523935220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699523935220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

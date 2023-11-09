@@ -20,6 +20,10 @@ public class CommandeAjouter extends CommandeDocument {
         super.executer();
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String getDescriptionCommande() {
         return "Ajoute du texte au document";
