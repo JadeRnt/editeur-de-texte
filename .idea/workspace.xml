@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="modif ex5" />
+    <list default="true" id="5499d26f-b942-449e-ad22-85bee8f91754" name="Changes" comment="test ex5">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/documentation.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +174,7 @@
       <updated>1699475401900</updated>
       <workItem from="1699475403441" duration="1627000" />
       <workItem from="1699477045864" duration="1083000" />
-      <workItem from="1699523538178" duration="4598000" />
+      <workItem from="1699523538178" duration="5020000" />
     </task>
     <task id="LOCAL-00001" summary="creation de CommandeInserer.java">
       <created>1699476079147</created>
@@ -360,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699528094133</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test ex5">
+      <option name="closed" value="true" />
+      <created>1699528165957</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1699528165957</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test ex5">
+      <option name="closed" value="true" />
+      <created>1699528251473</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1699528251473</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,8 +406,8 @@
     <MESSAGE value="docs maven" />
     <MESSAGE value="ex 5" />
     <MESSAGE value="corection ex5" />
-    <MESSAGE value="test ex5" />
     <MESSAGE value="modif ex5" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif ex5" />
+    <MESSAGE value="test ex5" />
+    <option name="LAST_COMMIT_MESSAGE" value="test ex5" />
   </component>
 </project>
