@@ -1,4 +1,4 @@
-name: Generate and Publish Javadoc
+name: Generate and Deploy Javadoc
 
 on:
   push:
@@ -6,11 +6,10 @@ on:
       - master
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Set up JDK 17
@@ -19,7 +18,7 @@ jobs:
           distribution: 'adopt'
           java-version: '17'
 
-      - name: Generate Javadoc
+      - name: Build Javadoc
         run: mvn javadoc:javadoc
 
       - name: Publish to gh-pages
@@ -28,9 +27,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target/site/apidocs/
 
-      - name: Set write permissions
+      - name: Set write permissions for gh-pages branch
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
           git branch -m gh-pages
-          git push -f origin gh-pages
+          git checkout -B master gh-pages
+          git push --force origin master
+        permissions:
+          contents: write
