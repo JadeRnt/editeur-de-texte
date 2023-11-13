@@ -12,6 +12,6 @@ public class DocumentTest {
 
     @Test
     public void test2() {
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 }

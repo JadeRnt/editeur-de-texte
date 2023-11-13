@@ -1,36 +1,30 @@
-name: Generate and Deploy Javadoc
+name: generate-java-doc
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
-  build-and-deploy:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: get-files
+        uses: actions/checkout@v3
 
-      - name: Set up JDK 17
-        uses: actions/setup-java@v2
+      - name: install-java
+        uses: actions/setup-java@v1
         with:
-          distribution: 'adopt'
-          java-version: '17'
+          java-version: 17
 
-      - name: Build Javadoc
+      - name: create-site
         run: mvn javadoc:javadoc
 
-      - name: Publish to gh-pages
+      - name: push-to-branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target/site/apidocs/
 
-      - name: Set write permissions for gh-pages branch
-        run: |
-          git branch -m gh-pages
-          git checkout -B master gh-pages
-          git push --force origin master
         permissions:
           contents: write
